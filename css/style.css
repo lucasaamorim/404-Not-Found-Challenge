@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+.header {
+    padding: 40px 60px;
+    width: 100%;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.text-container {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.home-button, .message {
+    font-family: 'Space Mono';
+    font-weight: 700;
+}
+
+.description {
+    font-size: 25px;
+    margin-bottom: 50px;
+    max-width: 380px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.message {
+    max-width: 600px;
+    font-size: 64px;
+    color: #333333;
+}
+
+.home-button {
+    width: 216px;
+    height: 68px;
+    margin-left: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #ffffff;
+}
+img{
+    min-height: 237px;
+    max-height: 447px;
+    min-width: 286px;
+    max-width: 539px;
+}
+button {
+    transition: 200ms;
+    letter-spacing: 0px;
+    height: 21px;
+    width: 130px;
+    padding: 24px;
+    border: 0;
+}
+button:hover {
+    background-color: #333333ca;
+}
+p {
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -2px;
+}
